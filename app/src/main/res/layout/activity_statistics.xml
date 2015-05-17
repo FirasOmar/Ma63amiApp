@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.awj.ma63amiapp_admin.Statistics"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/AdminEditinfoback"
+        android:src="@drawable/simpleback2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statistics     "
+        android:id="@+id/AdmintextView62"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/AdminEditinfoback"
+        android:layout_toRightOf="@+id/AdminEditinfoback"
+        android:layout_toEndOf="@+id/AdminEditinfoback" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/Admincstatistics"
+        android:layout_below="@+id/AdminEditinfoback"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/chart1"
+        android:layout_marginLeft="50dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/Adminsstatistics"
+        android:layout_alignTop="@+id/Admincstatistics"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/chart2"
+        android:layout_marginRight="50dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Customers"
+        android:id="@+id/AdmintextView63"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:layout_below="@+id/Admincstatistics"
+        android:layout_alignRight="@+id/Admincstatistics"
+        android:layout_alignEnd="@+id/Admincstatistics"
+        android:layout_alignLeft="@+id/Admincstatistics"
+        android:layout_alignStart="@+id/Admincstatistics" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Sales"
+        android:id="@+id/AdmintextView64"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:layout_below="@+id/Adminsstatistics"
+        android:layout_alignRight="@+id/Adminsstatistics"
+        android:layout_alignEnd="@+id/Adminsstatistics"
+        android:layout_alignLeft="@+id/Adminsstatistics"
+        android:layout_alignStart="@+id/Adminsstatistics" />
+</RelativeLayout>

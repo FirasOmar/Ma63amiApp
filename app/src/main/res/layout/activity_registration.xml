@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.myapplication.Registration"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/back"
+        android:src="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservation      "
+        android:id="@+id/textView56"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/back"
+        android:layout_toRightOf="@+id/back"
+        android:layout_toEndOf="@+id/back" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textView56"
+        android:background="@drawable/tables"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="on_click">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="38dp"
+            android:id="@+id/table1"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="115dp"
+            android:layout_marginStart="42dp"
+            android:background="#00ff00"
+            android:onClick="on_click"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="38dp"
+            android:id="@+id/table2"
+            android:background="#00ff00"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/table1"
+            android:layout_alignEnd="@+id/table1"
+            android:layout_marginBottom="39dp"
+            android:layout_marginRight="26dp"
+            android:onClick="on_click"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="38dp"
+            android:id="@+id/table3"
+            android:background="#00ff00"
+            android:layout_alignTop="@+id/table2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="45dp"
+            android:onClick="on_click"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:id="@+id/table6"
+            android:layout_above="@+id/table2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="77dp"
+            android:background="#00ff00"
+            android:layout_marginLeft="32dp"
+            android:onClick="on_click"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="72dp"
+            android:id="@+id/table4"
+            android:background="#00ff00"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="42dp"
+            android:layout_below="@+id/table1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="on_click"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="75dp"
+            android:id="@+id/table5"
+            android:background="#00ff00"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="42dp"
+            android:layout_marginTop="236dp"
+            android:onClick="on_click"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar5"
+            android:layout_above="@+id/table6"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</RelativeLayout>

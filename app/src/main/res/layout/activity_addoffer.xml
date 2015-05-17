@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.awj.ma63amiapp_admin.addoffer"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:id="@+id/AdminEditinfoback"
+        android:src="@drawable/simpleback2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Offers      "
+        android:id="@+id/AdmintextView30"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/AdminEditinfoback"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/AdminEditinfoback"
+        android:layout_toEndOf="@+id/AdminEditinfoback" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:id="@+id/Admincategoryadd"
+        android:spinnerMode="dialog"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/AdmintextView30"
+        android:layout_alignRight="@+id/AdmintextView30"
+        android:layout_alignEnd="@+id/AdmintextView30"
+        android:layout_marginRight="32dp"
+        android:background="#ff187bf5" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:id="@+id/Adminitem"
+        android:background="#ff187bf5"
+        android:spinnerMode="dialog"
+        android:layout_below="@+id/Admincategoryadd"
+        android:layout_alignLeft="@+id/Admincategoryadd"
+        android:layout_alignStart="@+id/Admincategoryadd"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:text="Category:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AdmintextView31"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/Admincategoryadd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/Adminitem"
+        android:gravity="center" />
+
+    <TextView
+        android:text="Item:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AdmintextView32"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/Adminitem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/Adminitem" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/AdmineditText9"
+        android:background="#ff187bf5"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/Adminitem"
+        android:layout_alignLeft="@+id/Adminitem"
+        android:layout_alignStart="@+id/Adminitem"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:text="Discount(%):"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AdmintextView33"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_alignTop="@+id/AdmineditText9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/AdmineditText9" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Save"
+        android:id="@+id/Adminsave"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_blue"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/AdmineditText9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Cancel"
+        android:id="@+id/Admincancel"
+        android:background="@drawable/button_blue"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/Adminsave"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp" />
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ma63amiapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_branch">Branch</string>
+    <string name="title_activity_branches">Branches</string>
+
+    <string-array name="branches">
+        <item>Ramallah</item>
+        <item>Jerusalem</item>
+        <item>Bethlehem</item>
+        <item>Nablus</item>
+        <item>Jenin</item>
+        <item>Jericho</item>
+    </string-array>
+
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_categories">Categories</string>
+    <string name="title_activity_drinks">Drinks</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_evaluation">Evaluation</string>
+    <string name="title_activity_offers">Offers</string>
+    <string name="title_activity_about_restaurant">AboutRestaurant</string>
+    <string name="title_activity_my_account">MyAccount</string>
+    <string name="title_activity_bill">Bill</string>
+    <string name="title_activity_pay">Pay</string>
+    <string name="title_activity_order">Order</string>
+    <string name="title_activity_face_book">FaceBook</string>
+    <string name="title_activity_options">Options</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_waiter">Waiter</string>
+    <string name="title_activity_cashier">Cashier</string>
+    <string name="title_activity_head_chef">HeadChef</string>
+    <string name="title_activity_main_login">MainLogin</string>
+    <string name="title_activity_registeration">Registeration</string>
+    <string name="title_activity_confirm_order">ConfirmOrder</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_tables">Tables</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_edit_menu">EditMenu</string>
+    <string name="title_activity_edit__bill_ui">edit_BillUI</string>
+    <string name="title_activity_edit_gallary">edit_gallary</string>
+    <string name="title_activity_edit__info">edit_Info</string>
+    <string name="title_activity_edit_item">editItem</string>
+    <string name="title_activity_offer">offer</string>
+    <string name="title_activity_addoffer">addoffer</string>
+    <string name="title_activity_editoffer">editoffer</string>
+    <string name="title_activity_orders">Orders</string>
+    <string name="title_activity_information">Information</string>
+    <string name="title_activity_edit_info">EditInfo</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_item_feedback">ItemFeedback</string>
+    <string name="title_activity_restaurant_feedback">RestaurantFeedback</string>
+    <string name="title_activity_payments">Payments</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_cstatistics">CStatistics</string>
+    <string name="title_activity_sales_statistics">SalesStatistics</string>
+    <string name="title_activity_additems">additems</string>
+    <string name="title_activity_create_user_type">createUserType</string>
+    <string name="title_activity_create_user">createUser</string>
+    <string name="title_activity_view_order">viewOrder</string>
+
+
+</resources>

@@ -1,0 +1,202 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.awj.ma63amiapp_admin.createUser"
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Full Name"
+        android:id="@+id/AdmintextView48"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/AdmineditText4"
+        android:layout_below="@+id/AdmintextView48"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/AdmintextView48"
+        android:layout_alignStart="@+id/AdmintextView48" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email"
+        android:id="@+id/AdmintextView49"
+        android:textColor="#000000"
+        android:layout_below="@+id/AdmineditText4"
+        android:layout_alignLeft="@+id/AdmineditText4"
+        android:layout_alignStart="@+id/AdmineditText4"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/AdmineditText5"
+        android:layout_below="@+id/AdmintextView49"
+        android:layout_alignLeft="@+id/AdmintextView49"
+        android:layout_alignStart="@+id/AdmintextView49"
+        android:layout_alignRight="@+id/AdmineditText4"
+        android:layout_alignEnd="@+id/AdmineditText4"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password"
+        android:id="@+id/AdmintextView51"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/AdmineditText5"
+        android:layout_alignLeft="@+id/AdmineditText5"
+        android:layout_alignStart="@+id/AdmineditText5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/AdmineditText6"
+        android:layout_below="@+id/AdmintextView51"
+        android:layout_alignLeft="@+id/AdmintextView51"
+        android:layout_alignStart="@+id/AdmintextView51"
+        android:layout_alignRight="@+id/AdmineditText5"
+        android:layout_alignEnd="@+id/AdmineditText5"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Phone Number"
+        android:id="@+id/AdmintextView61"
+        android:textColor="#000000"
+        android:layout_below="@+id/AdmineditText6"
+        android:layout_alignLeft="@+id/AdmineditText6"
+        android:layout_alignStart="@+id/AdmineditText6"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/AdmineditText7"
+        android:layout_below="@+id/AdmintextView61"
+        android:layout_alignLeft="@+id/AdmintextView61"
+        android:layout_alignStart="@+id/AdmintextView61"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/AdmineditText6"
+        android:layout_alignEnd="@+id/AdmineditText6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register New Account"
+        android:id="@+id/Adminbutton7"
+        android:background="#0b84aa"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/AdmineditText7"
+        android:layout_alignLeft="@+id/AdmineditText7"
+        android:layout_alignStart="@+id/AdmineditText7"
+        android:layout_alignRight="@+id/AdmineditText7"
+        android:layout_alignEnd="@+id/AdmineditText7"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/AdminimageView10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/simpleback" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="New Account"
+        android:id="@+id/AdmintextView68"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/AdmintextView69"
+        android:layout_below="@+id/AdmineditText4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/AdmintextView70"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/AdmineditText5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/AdmintextView71"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/AdmineditText6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/AdmintextView72"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/AdmineditText7"
+        android:layout_alignRight="@+id/AdmintextView71"
+        android:layout_alignEnd="@+id/AdmintextView71" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/AdmintextView73"
+        android:layout_alignTop="@+id/AdmintextView72"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0b84aa" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AdminprogressBar6"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="false"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

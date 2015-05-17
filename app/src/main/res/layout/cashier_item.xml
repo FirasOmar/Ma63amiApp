@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff0aeaff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tView37"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tView36"
+        android:layout_gravity="center"
+        android:layout_weight=".5"
+        android:paddingLeft="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView45"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_weight=".5"
+        android:layout_gravity="center"
+        android:paddingRight="@dimen/abc_action_bar_icon_vertical_padding_material" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iButton15"
+        android:src="@drawable/tick"
+        android:background="#ffffff"
+        android:layout_weight="1" />
+
+</LinearLayout>

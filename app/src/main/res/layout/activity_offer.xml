@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.awj.ma63amiapp_admin.offer"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/AdminEditinfoback"
+        android:src="@drawable/simpleback2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offers      "
+        android:id="@+id/AdmintextView26"
+        android:layout_alignParentTop="true"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/AdminEditinfoback"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/AdminEditinfoback"
+        android:layout_toEndOf="@+id/AdminEditinfoback" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/Admineditoffer"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/edititem"
+        android:layout_below="@+id/AdmintextView26"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/Admindeleteoffer"
+        android:src="@drawable/deleteitem"
+        android:layout_alignTop="@+id/Admineditoffer"
+        android:layout_alignRight="@+id/AdmintextView26"
+        android:layout_alignEnd="@+id/AdmintextView26"
+        android:layout_marginRight="32dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/Adminaddoffer"
+        android:layout_alignBottom="@+id/Admineditoffer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/specialoffer"
+        android:layout_marginLeft="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Offer"
+        android:id="@+id/AdmintextView27"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/Adminaddoffer"
+        android:layout_alignRight="@+id/Adminaddoffer"
+        android:layout_alignEnd="@+id/Adminaddoffer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Offer"
+        android:id="@+id/AdmintextView28"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/Admineditoffer"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Offer"
+        android:id="@+id/AdmintextView29"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/Admindeleteoffer"
+        android:layout_alignLeft="@+id/Admindeleteoffer"
+        android:layout_alignStart="@+id/Admindeleteoffer" />
+</RelativeLayout>

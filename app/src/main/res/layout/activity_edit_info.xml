@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.awj.ma63amiapp_admin.EditInfo"
+    android:background="#000000"
+    android:id="@+id/createuser">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/AdminEditinfoback"
+        android:src="@drawable/simpleback2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Info       "
+        android:id="@+id/AdmintextView46"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/AdminEditinfoback"
+        android:layout_toRightOf="@+id/AdminEditinfoback"
+        android:layout_toEndOf="@+id/AdminEditinfoback" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/AdmineditText11"
+        android:background="#DAA520"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/AdmintextView46"
+        android:layout_alignRight="@+id/AdmintextView46"
+        android:layout_alignEnd="@+id/AdmintextView46" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:id="@+id/AdmineditText13"
+        android:background="#DAA520"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/AdmineditText11"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AdminView47"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/AdmineditText11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+
+    <TextView
+        android:text="facebook:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AdminView49"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_alignTop="@+id/AdmineditText13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="About:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AdminView51"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_alignTop="@+id/AdmineditText14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="130dp"
+        android:id="@+id/AdmineditText14"
+        android:background="#DAA520"
+        android:autoText="true"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/AdmineditText13"
+        android:layout_marginTop="40dp"
+        android:layout_alignRight="@+id/AdmintextView46"
+        android:layout_alignEnd="@+id/AdmintextView46"
+        android:layout_above="@+id/Adminbutton4"
+        android:layout_alignLeft="@+id/AdmineditText13"
+        android:layout_alignStart="@+id/AdmineditText13" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Edit"
+        android:id="@+id/Adminbutton4"
+        android:background="@drawable/goldb1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AdminprogressBar5"
+        android:indeterminate="true"
+        android:layout_alignTop="@+id/AdmineditText14"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
